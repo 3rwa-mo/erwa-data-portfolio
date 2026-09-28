@@ -12,4 +12,5 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
 .social-links{display:flex;align-items:center;gap:9px;flex-wrap:wrap}.social-button{display:inline-flex;align-items:center;gap:8px;padding:13px 15px;border-radius:14px;background:#fff;border:1px solid var(--line);font-size:12px;font-weight:700;box-shadow:0 5px 15px #3735530a;transition:transform .2s,color .2s}.social-button:hover{transform:translateY(-2px)}.social-button.linkedin{color:#1769aa}.social-button.github{color:#343447}.footer-social{display:flex;gap:8px}.footer-social a{color:var(--purple);width:32px;height:32px;border-radius:11px;display:grid;place-items:center;background:#fff;border:1px solid var(--line)}
 @media(max-width:620px){.social-links{gap:8px}.social-button{padding:12px}.contact .button{padding:12px 14px}}
+.project-link{display:inline-flex;align-items:center;gap:7px;margin-top:16px;color:var(--purple);font-size:11px;font-weight:700}.project-link i{font-size:9px}.project-link:hover{text-decoration:underline}
 
