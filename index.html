@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#f3f5f9" />
+    <script>
+      if ("scrollRestoration" in history) history.scrollRestoration = "manual";
+      window.addEventListener("pageshow", () => {
+        if (!window.location.hash) window.scrollTo(0, 0);
+      });
+    </script>
     <meta
       name="description"
       content="Erwa Mohamed is an Information Systems graduate and junior data analyst in Giza, Egypt, building insights with Excel, Tableau, and SQL."
@@ -148,7 +154,7 @@
               <h3>SQL</h3>
               <p>Querying and working with data</p>
             </div>
-            <span class="learning-tag">HANDS-ON</span>
+            <span class="learning-tag">BASIC</span>
           </article>
           <article class="glass tool-card">
             <span class="tool-icon python"
@@ -247,8 +253,14 @@
         <div class="project-tip glass">
           <i class="fa-solid fa-certificate"></i>
           <p>
-            <b>Certifications &amp; training</b> Cisco Data Analytics Essentials
-            (in progress) · HubSpot Digital Marketing Certification · ICDL,
+            <b>Certifications &amp; training</b>
+            <a
+              href="https://www.credly.com/badges/c21deff0-b4c9-4136-9684-9af43e6c6197/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Cisco Data Analytics Essentials</a
+            >
+            · HubSpot Digital Marketing Certification · ICDL,
             Cairo University · Odoo Inventory &amp; Customer Management
             workshops · Digital Marketing training.
           </p>
